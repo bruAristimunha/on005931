@@ -1,2 +1,6 @@
+Unreleased 2026-10-18
+  - channels.tsv of 16 recordings = the data-file header channel list (name, order, count; matched by name): 990 rows renamed to the header name, 0 rows added, 990 rows removed (kept in sourcedata/channels-removed-2026-10-18/), 16 files reordered. Before, mne_bids could not apply channels.tsv to these files (count or name mismatch).
+  - README: section 'Channel names follow the data headers'.
+
 1.0.0 2025-03-06
   - Riyo Ueda; Hiroshi Uda; Keisuke Hatano; Kazuki Sakakura;  Naoto Kuroda; Yu Kitazawa;  Aya Kanno; Min-Hee Lee; Jeong-Wong Jeong;  Aimee F. Luat; Eishi Asano
