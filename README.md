@@ -32,6 +32,6 @@ electrodes.tsv is unchanged: it names the contacts (e.g. `A1`), while channel na
 
 ## Electrode locations (19 Oct 2026)
 
-Add coordsystem.json MNI305/mm next to 16 electrodes.tsv (proposal A1, Lane G round 4). Evidence: Wayne State (Asano/Kanno/Kochi) deposits use FreeSurfer-standard (MNI305/fsaverage) electrode coordinates; MNI305 is a millimetre space by definition. No OpenNeuro S3 version of this dataset ever held a coordsystem.json (all versions listed 2026-10-19). Paper PMC12829438 (section 2.2): FreeSurfer used "to normalize each electrode site to a Montreal Neurological Institute (MNI)-standard brain coordinate" (FreeSurfer's MNI space is MNI305); 10 of the 16 electrodes files are byte-identical to ds006234/on006233 (README MNI-305) and 8 to on007119 (fsaverage / mm).
+Add coordsystem.json MNI305/mm next to 16 electrodes.tsv. Evidence: Wayne State (Asano/Kanno/Kochi) deposits use FreeSurfer-standard (MNI305/fsaverage) electrode coordinates; MNI305 is a millimetre space by definition. No OpenNeuro S3 version of this dataset ever held a coordsystem.json (all versions listed 2026-10-19). Paper PMC12829438 (section 2.2): FreeSurfer used "to normalize each electrode site to a Montreal Neurological Institute (MNI)-standard brain coordinate" (FreeSurfer's MNI space is MNI305); 10 of the 16 electrodes files are byte-identical to ds006234/on006233 (README MNI-305) and 8 to on007119 (fsaverage / mm).
 
-Full evidence per dataset: REPORT-ieeg-locations.md and ieeg_locations.json (Lane G, 19 Oct 2026). This dataset mirrors OpenNeuro; the same change belongs upstream. Local branch only.
+This dataset mirrors OpenNeuro; the same change belongs upstream.
