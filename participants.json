@@ -10,7 +10,9 @@
     "Description": "sex of the participant as reported by the participant",
     "Levels": {
       "m": "male",
-      "f": "female"
+      "f": "female",
+      "Female": "female",
+      "Male": "male"
     },
     "Units": "",
     "TermURL": "http://www.todo.com/fixme"
